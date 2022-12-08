@@ -2,12 +2,21 @@
 
 
     h1{
-        font-family: "bely-display";
+        font-family: bely-display, sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
 
     h2{
-        font: "bely";
+        font-family: bely, serif;
+        font-weight: 700;
+        font-style: normal;
     }
+p{
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
     .color1{
         color: #055946;
@@ -16,3 +25,6 @@
         .color2{
         color: #F4BECD;
         }
+
+    
+        

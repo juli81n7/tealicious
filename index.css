@@ -1,10 +1,35 @@
+body{
+    background-color:#055946;
+}
+
+
 .landing{
-    height: 800px;
-    background-color:#F4BECD ;
+    height: 500px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
-h1{
-color:#055946;
-font-size: 10rem;
+.landing div{
+    text-align: center;
 }
 
+.landing div h1{
+    color:#F4BECD;
+    font-size: 6rem;
+    font-weight: 100;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+
+.landing div p{
+     
+color: white;
+
+margin-top: -0.8rem;
+
+
+}

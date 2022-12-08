@@ -26,5 +26,88 @@ p{
         color: #F4BECD;
         }
 
-    
+
         
+
+        /*******header**********/
+        .banner {
+            background:#F4BECD;
+            padding: 1rem;
+            display: flex;
+          justify-content: space-between ;
+          align-content: center;
+          align-items: center;
+          }
+          
+
+          .main-menu ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .logo a{
+            font-family: bely-display, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            color: #055946;
+            font-size: 2rem;
+
+        }
+
+        li a{
+            font-family: muli, sans-serif;
+            font-weight: 800;
+            text-decoration: none;
+            color: #055946;
+        }
+        li a:hover{
+     
+            color: #03362a;
+        }
+
+
+        /*******BURGERMENU**********/ 
+        .toggle-btn {
+            background: transparent;
+            border: none;
+            min-width: 44px;
+            min-height: 44px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: none;;
+             /* Skjul knappen som standard */
+          }
+
+
+          @media (max-width: 600px) {
+            .toggle-btn {
+              display: block;
+               /* Vis knappen, når viewporten maksimalt er 600px */
+          ;
+            }
+          
+            .main-menu {
+          display: contents;
+          display:block;
+          
+               /* Fjern ".main-menu"-boksen fra ligningen, når viewporten maksimalt er 600px, men behold børnene, så disse deltager i flex-kontekten */
+            }
+          
+            .main-menu ul {
+              display: none;
+          
+           /* Fjern menu-listen som standard */
+            }
+          
+            .main-menu.shown ul {
+              /* Vis menu-listen, når klassen ".shown" er til stede */
+              display: flex;
+              flex: 1 1 100%;
+              flex-flow: column;
+              align-items: center;
+    
+            }
+          }

@@ -1,4 +1,17 @@
 video{
     height: 1080px;
+    
+}
+
+.h1{
     background-color:pink;
+}
+
+
+.color1{
+color: #055946;
+}
+
+.color2{
+color: #F4BECD;
 }

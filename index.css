@@ -83,17 +83,3 @@ margin-top: 30px;
     background-color:#fddae4;
 }
 
-
-.wolt_knap{
-    width: 4%;
-    top: 90%;
-    left: 95%;
-    transform-origin: center;
-position: sticky;
-transition: scale .5s
-
-}
-.wolt_knap:hover{
-   scale: 1.2;
-
-}

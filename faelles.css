@@ -1,7 +1,6 @@
 html{
   --primary: #055946;
   --secondary: #F4BECD;
-
 }
 
 
@@ -39,7 +38,7 @@ p{
         /*******header**********/
         .banner {
             background:#F4BECD;
-            padding: 1rem;
+            padding: 2rem;
             display: flex;
           justify-content: space-between ;
           align-content: center;

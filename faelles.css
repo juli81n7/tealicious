@@ -1,3 +1,10 @@
+html{
+  --primary: #055946;
+  --secondary: #F4BECD;
+
+}
+
+
 main{
   max-width: 1200px;
   margin-left: auto;

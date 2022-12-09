@@ -1,15 +1,10 @@
 html{
   --primary: #055946;
   --secondary: #F4BECD;
-
 }
 
 
-main{
-  max-width: 1200px;
-  margin-left: auto;
-margin-right: auto;
-}
+
 
 
     h1{
@@ -43,11 +38,15 @@ p{
         /*******header**********/
         .banner {
             background:#F4BECD;
-            padding: 1rem;
+            padding: 2rem;
+
             display: flex;
           justify-content: space-between ;
           align-content: center;
           align-items: center;
+
+
+
           }
           
 
@@ -119,6 +118,29 @@ p{
               flex: 1 1 100%;
               flex-flow: column;
               align-items: center;
-    
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+    background-color: #F4BECD;
             }
           }
+
+
+
+
+/*woltknap*/
+.wolt_knap{
+  width: 4rem;
+  top: 92%;
+  left: 100%;
+margin-right: 10px;
+  transform-origin: center;
+position: sticky;
+transition: scale .5s
+
+}
+.wolt_knap:hover{
+ scale: 1.2;
+
+}

@@ -19,3 +19,16 @@ foreslag til header
       </ul>
     </nav>
 </header>
+
+
+
+
+
+Wolt knap sættes ind øverst i main
+
+
+<div class="wolt_knap">
+  <a href="https://wolt.com/da/dnk/copenhagen/search?q=Tea%3Alicious+Caf%C3%A9" target="_blank">  <img src="img/wolt_disk_logo.png" alt="wolt_link"></a>
+  </div>
+
+

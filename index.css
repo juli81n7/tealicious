@@ -6,13 +6,13 @@
 
 body{
     background-color:#055946;
+    height: 3000px;
 }
 
 img{
 display: block;
 width: 100%;
 height: auto;
-transition: transform .4s;
 }
 
 
@@ -79,4 +79,19 @@ margin-top: 30px;
 }
 .button:hover{
     background-color:#fddae4;
+}
+
+
+.wolt_knap{
+    width: 4%;
+    top: 90%;
+    left: 95%;
+    transform-origin: center;
+position: sticky;
+transition: scale .5s
+
+}
+.wolt_knap:hover{
+   scale: 1.2;
+
 }

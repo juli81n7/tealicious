@@ -39,10 +39,14 @@ p{
         .banner {
             background:#F4BECD;
             padding: 2rem;
+
             display: flex;
           justify-content: space-between ;
           align-content: center;
           align-items: center;
+
+
+
           }
           
 
@@ -114,7 +118,11 @@ p{
               flex: 1 1 100%;
               flex-flow: column;
               align-items: center;
-    
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+    background-color: #F4BECD;
             }
           }
 
@@ -123,9 +131,10 @@ p{
 
 /*woltknap*/
 .wolt_knap{
-  width: 4%;
-  top: 90%;
-  left: 95%;
+  width: 4rem;
+  top: 92%;
+  left: 100%;
+margin-right: 10px;
   transform-origin: center;
 position: sticky;
 transition: scale .5s

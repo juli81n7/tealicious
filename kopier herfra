@@ -5,19 +5,26 @@
 
 foreslag til header
 
- <header class="banner">
-    <div class="logo">
-      <a href="index.html">Tea:licious</a>
-    </div>
-
-    <nav class="main-menu">
-      <button class="toggle-btn"><img src="img/burger_menu-01.svg" alt="menu"></button>
-      <ul>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="galleri.html">Gallery</a></li>
-        <li><a href="about.html">About</a></li>
+<header>
+  <nav class="navbar">
+      <a href="index.html" class="nav-branding">Tea:licious</a>
+      <ul class="nav-menu">
+          <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="galleri.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+          </li>
       </ul>
-    </nav>
+      <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
+  </nav>
 </header>
 
 

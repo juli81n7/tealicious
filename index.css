@@ -4,16 +4,9 @@
   }
 
 
-body{
-    background-color:#055946;
-    height: 3000px;
 
-}
 
-main{
-    margin-left: 1rem;
-margin-right: 1rem;
-}
+
 
 
 img{
@@ -24,12 +17,12 @@ img{
 
 
 .landing{
-    height: 500px;
- 
+    height: 800px;
+ background-color: #055946;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-top: 0rem;
 
 }
 
@@ -60,7 +53,7 @@ h2{
 
 
 
-.button{
+.button_pink{
     cursor: pointer;
     outline: 0;
     color:#055946;
@@ -72,17 +65,43 @@ h2{
     padding: 6px 25px;
     font-size:19px;
     font-family: bely, serif;
-margin-top: 30px;
+margin-top: 20px;
     border-radius: 5px;
-
 }
-.button:hover{
+
+
+.button_pink:hover{
     background-color:#fddae4;
 }
 
 
+.button_green{
+    cursor: pointer;
+    outline: 0;
+    color:white;
+    background-color:#055946;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 25px;
+    font-size:19px;
+    font-family: bely, serif;
+margin-top: 20px;
+    border-radius: 5px;
+}
 
 
+.button_green:hover{
+    background-color:#032d23;
+}
+
+
+
+
+.events{
+    text-align: center;
+}
 
 
 @media (min-width: 600px){
@@ -91,16 +110,103 @@ margin-top: 30px;
 
     .menu_section{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1.5fr 1fr;
         align-items: center;
         height: 500px;
-        margin-left: 30px;
-        margin-right: 30px;
+        overflow: hidden;
+
+    }
+
+    .menu_section2{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        align-items: center;
+        height: 500px;
+        overflow: hidden;
+;
+    }
+.order{
+    order: -1;
+}
+
+    .text_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text_centered{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .green_text{
+        color: #055946;
+    }
+    .pink_text{
+        color: #F4BECD
+    }
+  
+    .menu_section img{
+        height: 100%;
     }
 
     .one{
-        display: flex;
-        justify-content: center;
-            color: white;
+     
+            color: #055946;
+            background-color: #F4BECD;
+            height: 100%;
+
         }
+        .menu_section2 img{
+            height: 100%;
+        }
+
+.second{
+    background-color: #055946;
+}
+        .events{
+            margin-top: 2rem;
+            align-items: center;
+            height: 500px;
+            text-align: center;
+display: flex;
+flex-direction: column;
+        }
+
+.socials{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.socials div{
+    background-color: #055946;
+    width: 350px;
+    height: 460px;
+    overflow: hidden;
+
+}
+
+.socials_container{
+    height: 100%;
+    width: 100%;
+
+
+}
+.socials div img{
+   width: 100%;    
+}
+
+.socials_text{
+margin-top: 1rem;
+
+}
+
+.socials_text button{
+    margin-top: 2rem;
+}
+
+
+
+
 }

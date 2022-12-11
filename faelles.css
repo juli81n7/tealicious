@@ -1,10 +1,140 @@
+
+*{
+ padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html{
   --primary: #055946;
   --secondary: #F4BECD;
 }
 
+header{
+  background-color:var(--secondary);
+  position: fixed;
+  width: 100%;
+  top: 0;
 
 
+}
+
+li{
+  list-style: none;
+          font-family: bely, serif;
+        font-weight: 100;
+        font-style: normal;
+        color: var(--primary);
+        font-size: 1.2rem;
+}
+
+
+
+
+a{
+  color: var(--primary);
+text-decoration: none;
+
+}
+
+.navbar{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+
+
+}
+
+.nav-menu{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 60px;
+  height: 100%;
+}
+
+.nav-branding{
+  font-family: bely-display, sans-serif;
+  font-size: 2rem;
+}
+
+.nav-link{
+  transition: 0.7 ease;
+
+}
+
+.nav-link :hover{
+  font-weight: bolder;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display:block;
+  width: 25px;
+  height: 3px;
+margin: 5px auto;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+background-color: var(--primary);
+}
+
+@media(max-width:600px){
+  .hamburger{
+    display: block;
+  }
+
+.harmburger.active .bar:nth-child(2){
+  opacity: 0;
+}
+
+
+li{
+  list-style: none;
+          font-family: bely, serif;
+        font-weight: 100;
+        font-style: normal;
+        color: var(--primary);
+        font-size: 2rem;
+}
+
+
+.harmburger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+
+.harmburger.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-menu{
+  position: fixed;
+  transform: translatex();
+  left: -100%;
+  top: 70px;
+  gap:0;
+  flex-direction: column;
+background-color: var(--secondary);
+width: 100%;
+text-align: center;
+
+}
+
+.nav-item{
+  margin: 16px;
+  
+}
+
+.nav-menu.active{
+left: 0;
+}
+
+}
 
 
     h1{
@@ -15,14 +145,16 @@ html{
 
     h2{
         font-family: bely, serif;
-        font-weight: 700;
+        font-weight: 100;
         font-style: normal;
+        color: white;
     }
 p{
     font-family: muli, sans-serif;
     font-weight: 400;
     font-style: normal;
-}
+    color: white;
+  }
 
     .color1{
         color: #055946;
@@ -35,104 +167,10 @@ p{
 
         
 
-        /*******header**********/
-        .banner {
-            background:#F4BECD;
-            padding: 2rem;
 
-            display: flex;
-          justify-content: space-between ;
-          align-content: center;
-          align-items: center;
-
-
-
-          }
-          
-
-          .main-menu ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            gap: 20px;
-        }
-
-        .logo a{
-            font-family: bely-display, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            text-decoration: none;
-            color: #055946;
-            font-size: 2rem;
-
-        }
-
-        li a{
-            font-family: muli, sans-serif;
-            font-weight: 800;
-            text-decoration: none;
-            color: #055946;
-        }
-        li a:hover{
-     
-            color: #03362a;
-        }
-
-
-        /*******BURGERMENU**********/ 
-        .toggle-btn {
-            background: transparent;
-            border: none;
-            min-width: 44px;
-            min-height: 44px;
-            font-size: 1.1rem;
-            cursor: pointer;
-            display: none;;
-             /* Skjul knappen som standard */
-          }
-
-
-          @media (max-width: 600px) {
-            .toggle-btn {
-              display: block;
-               /* Vis knappen, når viewporten maksimalt er 600px */
-          ;
-            }
-          
-            .main-menu {
-          display: contents;
-          display:block;
-          
-               /* Fjern ".main-menu"-boksen fra ligningen, når viewporten maksimalt er 600px, men behold børnene, så disse deltager i flex-kontekten */
-            }
-          
-            .main-menu ul {
-              display: none;
-          
-           /* Fjern menu-listen som standard */
-            }
-          
-            .main-menu.shown ul {
-              /* Vis menu-listen, når klassen ".shown" er til stede */
-              display: flex;
-              flex: 1 1 100%;
-              flex-flow: column;
-              align-items: center;
-              top: 0;
-              right: 0;
-              bottom: 0;
-              left: 0;
-    background-color: #F4BECD;
-            }
-          }
-
-
-
-
-/*woltknap*/
 .wolt_knap{
   width: 4rem;
-  top: 92%;
+  top: 91%;
   left: 100%;
 margin-right: 10px;
   transform-origin: center;
@@ -143,4 +181,18 @@ transition: scale .5s
 .wolt_knap:hover{
  scale: 1.2;
 
+}
+
+
+
+footer{
+  height: 300px;
+  background-color: #F4BECD;
+  width: 100%;
+margin-top: 200px;
+display: flex;
+justify-content: center;
+justify-items: center;
+flex-direction: column;
+text-align: center;
 }

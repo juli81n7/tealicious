@@ -21,7 +21,7 @@ li{
         font-weight: 100;
         font-style: normal;
         color: var(--primary);
-        font-size: 2rem;
+        font-size: 1.2rem;
 }
 
 
@@ -88,6 +88,17 @@ background-color: var(--primary);
 .harmburger.active .bar:nth-child(2){
   opacity: 0;
 }
+
+
+li{
+  list-style: none;
+          font-family: bely, serif;
+        font-weight: 100;
+        font-style: normal;
+        color: var(--primary);
+        font-size: 2rem;
+}
+
 
 .harmburger.active .bar:nth-child(1){
   transform: translateY(8px) rotate(45deg);

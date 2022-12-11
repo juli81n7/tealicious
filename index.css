@@ -106,3 +106,15 @@ section{
             color: white;
         }
 }
+
+
+.events{
+    background-color:#F4BECD;
+}
+
+.events h2{
+    color:#055946;
+}
+.events p{
+    color:#055946;
+}

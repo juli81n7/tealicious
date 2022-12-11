@@ -12,18 +12,25 @@
 </head>
 
 <body>
-    <header class="banner">
-        <div class="logo">
-            <a href="index.html">Tea:licious</a>
-        </div>
-
-        <nav class="main-menu">
-            <button class="toggle-btn"><img src="img/burger_menu-01.svg" alt="menu"></button>
-            <ul>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="galleri.html">Gallery</a></li>
-                <li><a href="about.html">About</a></li>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-branding">Tea:licious</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galleri.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
     <div class="wolt_knap">
@@ -34,15 +41,14 @@
         <section class="aboutus">
             <div>
                 <h1>About us</h1>
-                <p>The vision</p>
-                <p>The mission</p>
+
             </div>
         </section>
 
-        <h2>From dream to reality</h2>
+        <h2 class="h2_about">From dream to reality</h2>
 
         <div class="text_section">
-            <div class="column">
+            <div>
                 <p>With a dream of upscaling the bubble tea trend in downtown Copenhagen, Tea:licious Café opened at
                     Studiestræde in the
                     beginning of May 2016. Followed by Amager in 2020 and then Frederiksberg and Roskilde by 2021.
@@ -69,16 +75,96 @@
                     Consistency in taste is very important and to give our customers the same great experience on each
                     cup.</p>
             </div>
-            <div class="column">
+            <div class="pictures">
                 <img src="img/tealicious_owners.jpeg" alt="">
                 <img src="img/tealicious_studiestraedet03.jpeg" alt="">
             </div>
         </div>
+
+        <section class="findus">
+            <div>
+                <h1>Find us</h1>
+            </div>
+        </section>
+
+        <h2 class="h2_about">Stores</h2>
+        <section class="stores_section">
+            <div>
+                <h2 class="h2_store">Copenhagen</h2>
+                <h3>Studiestræde 21</h3>
+            </div>
+
+            <div class="store_picture">
+                <img src="img/tealicious_studiestraedet_storefront.jpeg" alt="">
+            </div>
+
+        </section>
+        <section class="stores_section">
+            <div>
+                <h2 class="h2_store">Frederiksberg</h2>
+                <h3>Nyelandsvej 21A</h3>
+            </div>
+
+            <div class="store_picture">
+                <img src="img/frb-facade1.jpeg" alt="">
+            </div>
+
+        </section>
+        <section class="stores_section">
+            <div>
+                <h2 class="h2_store">Roskilde</h2>
+                <h3>Karen Olsdatters Stræde 4A</h3>
+            </div>
+
+            <div class="store_picture">
+                <img src="img/roskilde-interior3.jpeg" alt="">
+            </div>
+
+        </section>
+
+        <section class="formular_section">
+            <div>
+                <h2 class="h2_contact">Contact us</h2>
+                <p class="p_contact">
+                    Send us your feedbacks and inquiries and don’t forget you can also message Tea:licious Café on your
+                    favorite social
+                    media platforms!
+                </p>
+            </div>
+
+            <form>
+                <!-- Formular-indhold -->
+                <div class="form-felt">
+                    <label for="navn">Name</label>
+                    <input id="navn" name="navn" type="text" />
+                    <div class="form-felt">
+                        <label for="efternavn">Last name</label>
+                        <input id="efternavn" name="efternavn" type="text" />
+                    </div>
+                    <div class="form-felt">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" />
+                    </div>
+                    <div class="form-felt">
+                        <label>
+                            Message
+                            <textarea name="besked" rows="5"></textarea>
+                        </label>
+                        <button>Send</button>
+                    </div>
+                </div>
+
+            </form>
+        </section>
     </main>
 
-
-
     <script src="faelles.js"></script>
+
+    <footer>
+        <div class="logo">
+            <a href="index.html" class="nav-branding pink">Tea:licious</a>
+        </div>
+    </footer>
 
 </body>
 

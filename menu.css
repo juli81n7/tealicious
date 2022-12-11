@@ -8,6 +8,7 @@
 main {
   margin-left: 1rem;
   margin-right: 1rem;
+
   text-align: center;
 }
 h2,
@@ -30,8 +31,9 @@ img {
   border-color: var(--primary);
   border-style: solid;
   border-radius: 15px;
-  padding: 20px;
-  margin: 20px;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 600px;
 }
 
 .secondarybgr {
@@ -39,8 +41,11 @@ img {
   background-color: var(--primary);
   border-radius: 15px;
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
   color: white;
+}
+.byo {
+  margin: auto;
 }
 
 /*** grids ***/

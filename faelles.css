@@ -11,7 +11,11 @@ html{
 }
 
 header{
-  background-color:var(--secondary) ;
+  background-color:var(--secondary);
+  position: fixed;
+  width: 100%;
+  top: 0;
+
 
 }
 

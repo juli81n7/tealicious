@@ -30,6 +30,7 @@ img{
     justify-content: center;
     margin-top: rem;
     cursor: url(img/custom_cursor_pink.svg), auto;
+    overflow: hidden;
 
 
 }
@@ -38,6 +39,19 @@ img{
 .landing div{
     text-align: center;
 }
+
+.landing_text{
+    z-index: 2;
+    text-align: center;
+}
+
+
+
+.en{
+scale:0.2
+}
+
+
 
 h1{
     color:#F4BECD;
@@ -218,61 +232,43 @@ border-radius: 50px;
 
 
         .events{
-            margin-top: 4rem;
+            margin-top: 2rem;
             align-items: center;
             height: 800px;
             text-align: center;
 display: flex;
 flex-direction: column;
-margin-left: 5rem;
-margin-right: 5rem;
+
+
 
 }
 
 .events .image_container{
-height:60%;
-
-}
-
-.events .image_container:hover{
-
-height: 61%;
+height:30%;
+;
 
 }
 
 
-.events img{
-    padding: 2rem;
+
+
+.events .image_container img{
+    height: 100;
 }
 
-.socials{
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 2rem;
-}
 
-.socials div{
-    background-color: #055946;
-    width: 400px;
-    height: 460px;
-    overflow: hidden;
+.events .image_container img:hover{
+
+height: 102%;
 
 }
 
-.socials_container{
-    height: 100%;
-    width: 100%;
-}
-.socials div img{
-   width: 100%; 
-   height: 50%;
-}
 
-.socials_text{
-margin-top: 1rem;
 
-}
+
+
+
+
 
 .socials_text button{
     margin-top: 2rem;

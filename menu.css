@@ -11,6 +11,9 @@ main {
 
   text-align: center;
 }
+.alignleft {
+  text-align: left;
+}
 h2,
 p,
 h1,
@@ -36,6 +39,10 @@ img {
   object-fit: cover;
 }
 
+.menu {
+  margin: 20px;
+  aspect-ratio: 2/3;
+}
 .secondarybg {
   border-color: var(--secondary);
   border-color: var(--primary);
@@ -58,6 +65,10 @@ img {
 }
 .byo {
   margin: auto;
+}
+
+.row_2 {
+  grid-row: span 2;
 }
 
 /*** grids ***/

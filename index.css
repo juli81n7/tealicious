@@ -8,6 +8,7 @@
 
 body{
     background-color: #efeee9;
+    cursor: url(img/custom_cursor_green.svg), auto;
 }
 
 
@@ -17,6 +18,7 @@ img{
     width: 100%;
     display: block;
     object-fit: cover;
+    cursor: url(img/custom_cursor_green_hover.svg), auto;
 }
 
 
@@ -27,6 +29,7 @@ img{
     align-items: center;
     justify-content: center;
     margin-top: rem;
+    cursor: url(img/custom_cursor_pink.svg), auto;
 
 
 }
@@ -62,7 +65,7 @@ h2{
 
 
 .button_pink{
-    cursor: pointer;
+
     outline: 0;
     color:#055946;
     background-color:white;
@@ -84,7 +87,7 @@ margin-top: 20px;
 
 
 .button_green{
-    cursor: pointer;
+ 
     outline: 0;
     color:white;
     background-color:#055946;
@@ -101,7 +104,8 @@ margin-top: 20px;
 
 
 .button_green:hover{
-    background-color: var(--secondary)
+    background-color: var(--secondary);
+    cursor: url(img/custom_cursor_green_hover.svg), auto;
 }
 
 
@@ -169,6 +173,7 @@ border-radius: 50px;
         height:100%;
         border-radius: 50px;
         transition: 0.2s ease-in-out;
+        transform-origin: center;
     
     }
     

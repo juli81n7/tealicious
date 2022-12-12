@@ -91,7 +91,7 @@ background-color: var(--primary);
     display: block;
   }
 
-.harmburger.active .bar:nth-child(2){
+.harmburger .active .bar:nth-child(2){
   opacity: 0;
 }
 
@@ -103,6 +103,7 @@ li{
         font-style: normal;
         color: var(--primary);
         font-size: 2rem;
+        cursor: url(img/custom_cursor_pink.svg), auto;
 }
 
 
@@ -129,6 +130,7 @@ text-align: center;
 
 .nav-item{
   margin: 16px;
+
   
 }
 

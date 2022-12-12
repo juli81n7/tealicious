@@ -45,14 +45,6 @@ img{
     text-align: center;
 }
 
-
-
-.en{
-scale:0.2
-}
-
-
-
 h1{
     color:#F4BECD;
     font-size: 4rem;
@@ -62,21 +54,18 @@ h1{
 }
 
 
-
 .landing div p{
      color: white;
 margin-top: -0.8rem;
 }
-.one{
-color: white;
-text-align: center;
+
+
+
+
+
+.text_container{
+    text-align: center;
 }
-
-h2{
-    font-size: 5rem;
-}
-
-
 
 .button_pink{
 
@@ -130,14 +119,7 @@ margin-top: 20px;
 }
 
 
-.menu_section2{
-    align-items: center;
-    height: 700px;
-    overflow: hidden;
-    margin-left: 5rem;
-    margin-right: 5rem;
 
-}
 .menu_section2 img{
     height: 100%;
     padding: 2rem;
@@ -145,10 +127,101 @@ border-radius: 50px;
 
 }
 
-@media (min-width: 600px){
+
+.green_text{
+    color: #055946;
+}
+.pink_text{
+    color:#F4BECD;
+}
+
+.white_text{
+    color: white;
+}
+
+@media (max-width: 800px){
+    h2{
+        font-size: 2rem;
+
+    }
+
+    .menu_section2{
+        align-items: center;
+        height: 700px;
+        overflow: hidden;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    margin-top: 2rem;
+    }
+
+.image_container{
+    height: 525px;
+    
+}
+
+.menu_section2 img {
+padding: 1rem;
+}
 
 
 
+
+.events{
+    display: flex;
+flex-direction: column;
+    align-items: center;
+    text-align: center;
+margin-top: 2rem;
+margin-left: 2rem;
+margin-right: 2rem;
+
+}
+
+.events .image_container{
+width: 100%;
+height: 299px;
+padding: 1rem
+
+}
+
+
+
+
+.events .image_container img{
+border-radius: 15px;
+
+
+}
+
+
+.events .image_container img:hover{
+border-radius: 30px;
+height: 102%;
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px){
+
+
+
+    h2{
+        font-size: 5rem;
+    }
 
 
     .menu_section2{
@@ -209,23 +282,8 @@ border-radius: 50px;
     }
 
 
-    .green_text{
-        color: #055946;
-    }
-    .pink_text{
-        color:#F4BECD;
-    }
-
-    .white_text{
-        color: white;
-    }
-  
    
-
-    .one{
-     height: 100%;
-
-        }
+        
         .menu_section2 img{
             height: 100%;
         }
@@ -244,8 +302,8 @@ flex-direction: column;
 }
 
 .events .image_container{
-height:30%;
-;
+width: 100%;
+height: 400px;
 
 }
 
@@ -253,32 +311,25 @@ height:30%;
 
 
 .events .image_container img{
-    height: 100;
+    border-radius: 15px;
+    object-fit: cover;
 }
 
 
 .events .image_container img:hover{
-
+    border-radius: 30px;
 height: 102%;
 
+
 }
 
 
 
-
-
-
-
-
-.socials_text button{
-    margin-top: 2rem;
-}
 
 
 
 
 }
-
 
 
 

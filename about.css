@@ -16,7 +16,7 @@ img {
 }
 
 .aboutus {
-  height: 500px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,7 +78,7 @@ img {
 }
 
 .findus {
-  height: 500px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -233,5 +233,19 @@ h3 {
 @media (min-width: 601px) {
   .contact_section {
     text-align: left;
+  }
+}
+
+textarea {
+  resize: none;
+  width: 246px;
+  height: 86px;
+}
+
+@media (min-width: 601px) {
+  textarea {
+    resize: none;
+    width: 552px;
+    height: 138px;
   }
 }

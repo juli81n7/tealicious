@@ -8,6 +8,7 @@
 html{
   --primary: #055946;
   --secondary: #F4BECD;
+  --background: #efeee9;
 }
 
 header{
@@ -15,6 +16,7 @@ header{
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 9999;
 
 
 }

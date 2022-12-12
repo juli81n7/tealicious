@@ -4,7 +4,9 @@
   }
 
 
-
+body{
+    background-color: #efeee9;
+}
 
 
 
@@ -22,9 +24,11 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 0rem;
+    margin-top: rem;
+
 
 }
+
 
 .landing div{
     text-align: center;
@@ -38,6 +42,8 @@ h1{
     margin-top: 0rem;
 }
 
+
+
 .landing div p{
      color: white;
 margin-top: -0.8rem;
@@ -48,7 +54,7 @@ text-align: center;
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 5rem;
 }
 
 
@@ -57,7 +63,7 @@ h2{
     cursor: pointer;
     outline: 0;
     color:#055946;
-    background-color:#F4BECD;
+    background-color:white;
     font-weight: 400;
     line-height: 1.5;
     text-align: center;
@@ -110,21 +116,46 @@ margin-top: 20px;
 
     .menu_section{
         display: grid;
-        grid-template-columns: 1.5fr 1fr;
+        grid-template-columns: 2fr 2fr;
         align-items: center;
-        height: 500px;
+        height: 700px;
         overflow: hidden;
+        overflow: hidden;
+        margin-right: 5rem;
+        margin-left: 5rem;
+
 
     }
+    .menu_section img{
+        height: 100%;
+        scale: 0.5;
+        rotate: 10deg;
+
+
+    }
+
+
 
     .menu_section2{
         display: grid;
-        grid-template-columns: 1fr 1.5fr;
+        grid-template-columns: 2fr 2fr;
         align-items: center;
-        height: 500px;
+        height: 700px;
         overflow: hidden;
-;
+        overflow: hidden;
+        margin-left: 5rem;
+        margin-right: 5rem;
+  
     }
+    .menu_section2 img{
+        height: 100%;
+        padding: 2rem;
+border-radius: 50px;
+
+    }
+
+
+    
 .order{
     order: -1;
 }
@@ -135,53 +166,49 @@ margin-top: 20px;
         justify-content: center;
     }
 
-    .text_centered{
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
+
     .green_text{
         color: #055946;
     }
     .pink_text{
-        color: #F4BECD
-    }
-  
-    .menu_section img{
-        height: 100%;
+        color:#F4BECD;
     }
 
+    .white_text{
+        color: white;
+    }
+  
+   
+
     .one{
-     
-            color: #055946;
-            background-color: #F4BECD;
-            height: 100%;
+     height: 100%;
 
         }
         .menu_section2 img{
             height: 100%;
         }
 
-.second{
-    background-color: #055946;
-}
+
         .events{
-            margin-top: 2rem;
+            margin-top: 4rem;
             align-items: center;
             height: 500px;
             text-align: center;
 display: flex;
 flex-direction: column;
-        }
+
+}
 
 .socials{
     display: flex;
+    justify-content: center;
     gap: 2rem;
     margin-top: 2rem;
 }
 
 .socials div{
     background-color: #055946;
-    width: 350px;
+    width: 400px;
     height: 460px;
     overflow: hidden;
 
@@ -190,11 +217,10 @@ flex-direction: column;
 .socials_container{
     height: 100%;
     width: 100%;
-
-
 }
 .socials div img{
-   width: 100%;    
+   width: 100%; 
+   height: 50%;
 }
 
 .socials_text{
@@ -208,5 +234,61 @@ margin-top: 1rem;
 
 
 
+
+}
+
+
+.section_indhold{
+    height: 1000px;
+}
+
+.underoverskrift{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+padding-bottom: 1rem;
+
+background-color: #efeee9;
+border-top:#055946 solid;
+border-bottom:#055946 solid ;
+position: sticky;
+top: 70px;
+width: 100%
+}
+
+.underoverskrift div{
+    margin-left: 2rem;
+}
+
+.underoverskrift button{
+    margin-right: 2rem;
+}
+
+
+
+
+.image_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height:900px;
+    gap: 8rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 8rem;
+padding-bottom: 16rem;
+    overflow: hidden;
+}
+
+.image_container img{
+    height:100%;
+    border-radius: 40px;
+    transition: 0.2s ease-in-out;
+
+}
+
+.image_container img:hover{
+    height:100%;
+    border-radius: 80px;
+transition: 0.2s ease-in-out;
 
 }

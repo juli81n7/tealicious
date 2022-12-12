@@ -27,9 +27,38 @@ img {
      
 }
 
+.grid_1-1-1-københavn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+     
+}
+
+.grid_1-1-1-fredriksberg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+     
+}
+
 .tekst {
     padding-bottom: 30px;
     padding-top: 30px;
+    padding-left: 70px;
+    text-align: center;
+}
+
+.tekst2 {
+    padding-bottom: 40px;
+    padding-top: 50px;
     padding-left: 70px;
     text-align: center;
 }

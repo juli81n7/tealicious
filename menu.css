@@ -11,21 +11,38 @@ main {
 
   text-align: center;
 }
+.alignleft {
+  text-align: left;
+}
 h2,
 p,
-h1 {
+h1,
+h3,
+li {
   color: var(--primary);
 }
 h1 {
   padding-top: 20px;
 }
-
+h3,
+li {
+  font-size: 1.2rem;
+  font-family: bely, sans-serif;
+  padding-top: 14px;
+}
+h2 {
+  padding-top: 18px;
+}
 img {
   width: 100%;
   display: block;
   object-fit: cover;
 }
 
+.menu {
+  margin: 20px;
+  aspect-ratio: 2/3;
+}
 .secondarybg {
   border-color: var(--secondary);
   border-color: var(--primary);
@@ -43,9 +60,15 @@ img {
   padding: 20px;
   margin: 20px auto;
   color: white;
+  max-width: 600px;
+  margin-top: 30px;
 }
 .byo {
   margin: auto;
+}
+
+.row_2 {
+  grid-row: span 2;
 }
 
 /*** grids ***/

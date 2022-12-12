@@ -22,10 +22,6 @@ img {
   background-color: #055946;
 }
 
-.aboutus p {
-  color: #fff;
-}
-
 .aboutus div {
   text-align: center;
 }
@@ -45,6 +41,10 @@ img {
   margin: 2rem;
 }
 
+.text_section p {
+  line-height: 2rem;
+}
+
 .pictures {
   display: grid;
   gap: 0.5rem;
@@ -58,7 +58,7 @@ img {
 
 @media (min-width: 601px) {
   .text_section {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     margin-right: 10rem;
     margin-left: 10rem;
     margin-bottom: 10rem;
@@ -125,15 +125,12 @@ form {
   display: grid;
   gap: 3rem;
   align-items: start;
-  margin: 2rem;
 }
 
 @media (min-width: 601px) {
   .stores_section {
-    grid-template-columns: 1fr 1fr;
-    margin-right: 10rem;
-    margin-left: 10rem;
-    margin-bottom: 10rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10rem;
   }
 }
 

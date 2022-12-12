@@ -5,7 +5,17 @@
 
 
 body{
-    background-color:#055946;
+    background-color: white;
+}
+
+h1 {
+    color:#055946;
+}
+
+h2 {
+    color: #055946;
+   font-size: 30px;
+    
 }
 
 
@@ -14,6 +24,11 @@ img {
     height: auto;
     display: block;
     border-radius: 5px;
+    transition:transform 0.25s ease;
+    }
+
+    img:hover {
+        transform:scale(1.1);
     }
 
 .grid_1-1-1-galleri {
@@ -27,42 +42,38 @@ img {
      
 }
 
-.grid_1-1-1-københavn {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
-    padding-bottom: 10px;
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-     
-}
-
-.grid_1-1-1-fredriksberg {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
-    padding-bottom: 10px;
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-     
+@media (max-width: 800px) {
+    
+   
+    
+    .grid_1-1-1-galleri {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-top: 30px;
+        align-items: center;
+      }
+      
 }
 
 .tekst {
     padding-bottom: 30px;
     padding-top: 30px;
-    padding-left: 70px;
     text-align: center;
 }
 
 .tekst2 {
     padding-bottom: 40px;
     padding-top: 50px;
-    padding-left: 70px;
     text-align: center;
 }
 
 .main_video {
-    padding-left: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+video {
+    width: 100%;
+    height: auto;
 }

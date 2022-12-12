@@ -63,7 +63,7 @@ img{
     .grid_1-1-1-galleri {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 30px;
         padding-top: 30px;
         align-items: center;
       }

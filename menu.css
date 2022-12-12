@@ -4,7 +4,9 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  background-color: var(--background);
+}
 main {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -40,8 +42,9 @@ img {
 }
 
 .menu {
-  margin: 20px;
   aspect-ratio: 2/3;
+  border-radius: 15px;
+  margin-top: 20px;
 }
 .secondarybg {
   border-color: var(--secondary);
@@ -71,6 +74,17 @@ img {
   grid-row: span 2;
 }
 
+.diylist {
+  list-style: disc;
+  text-align: left;
+  max-width: 260px;
+  margin: auto;
+}
+
+.diyul {
+  margin: auto;
+}
+
 /*** grids ***/
 @media (min-width: 600px) {
   .grid_2col_1-1 {
@@ -82,6 +96,8 @@ img {
   .grid_2col_1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
   }
 }

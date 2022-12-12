@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    transition: 0.2s ease-in-out;
+    scroll-behavior: smooth;
   }
 
 
@@ -99,7 +101,7 @@ margin-top: 20px;
 
 
 .button_green:hover{
-    background-color:#032d23;
+    background-color: var(--secondary)
 }
 
 
@@ -110,29 +112,24 @@ margin-top: 20px;
 }
 
 
+.menu_section2{
+    align-items: center;
+    height: 700px;
+    overflow: hidden;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
+.menu_section2 img{
+    height: 100%;
+    padding: 2rem;
+border-radius: 50px;
+
+}
+
 @media (min-width: 600px){
 
 
-
-    .menu_section{
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        align-items: center;
-        height: 700px;
-        overflow: hidden;
-        overflow: hidden;
-        margin-right: 5rem;
-        margin-left: 5rem;
-
-
-    }
-    .menu_section img{
-        height: 100%;
-        scale: 0.5;
-        rotate: 10deg;
-
-
-    }
 
 
 
@@ -155,6 +152,32 @@ border-radius: 50px;
     }
 
 
+
+    .image_container{
+        height: 100%;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    }
+    
+    
+    .image_container:hover {
+        height: 102%;
+        transition: 0.2s ease-in-out;
+    }
+    
+    .image_container img{
+        height:100%;
+        border-radius: 50px;
+        transition: 0.2s ease-in-out;
+    
+    }
+    
+    .image_container img:hover{
+        height:100%;
+        border-radius: 80px;
+    transition: 0.2s ease-in-out;
+    
+    }
     
 .order{
     order: -1;
@@ -192,11 +215,29 @@ border-radius: 50px;
         .events{
             margin-top: 4rem;
             align-items: center;
-            height: 500px;
+            height: 800px;
             text-align: center;
 display: flex;
 flex-direction: column;
+margin-left: 5rem;
+margin-right: 5rem;
 
+}
+
+.events .image_container{
+height:60%;
+
+}
+
+.events .image_container:hover{
+
+height: 61%;
+
+}
+
+
+.events img{
+    padding: 2rem;
 }
 
 .socials{
@@ -238,57 +279,5 @@ margin-top: 1rem;
 }
 
 
-.section_indhold{
-    height: 1000px;
-}
-
-.underoverskrift{
-    display: flex;
-align-items: center;
-justify-content: space-between;
-padding-bottom: 1rem;
-
-background-color: #efeee9;
-border-top:#055946 solid;
-border-bottom:#055946 solid ;
-position: sticky;
-top: 70px;
-width: 100%
-}
-
-.underoverskrift div{
-    margin-left: 2rem;
-}
-
-.underoverskrift button{
-    margin-right: 2rem;
-}
 
 
-
-
-.image_grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height:900px;
-    gap: 8rem;
-    margin-left: 8rem;
-    margin-right: 8rem;
-    margin-top: 8rem;
-padding-bottom: 16rem;
-    overflow: hidden;
-}
-
-.image_container img{
-    height:100%;
-    border-radius: 40px;
-    transition: 0.2s ease-in-out;
-
-}
-
-.image_container img:hover{
-    height:100%;
-    border-radius: 80px;
-transition: 0.2s ease-in-out;
-
-}

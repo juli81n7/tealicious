@@ -12,6 +12,7 @@ img {
   width: 100%;
   display: block;
   object-fit: cover;
+  border-radius: 5px;
 }
 
 .aboutus {
@@ -186,4 +187,30 @@ button {
 .text_stores h2 {
   color: #055946;
   text-align: center;
+}
+
+.store_place {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.opening_hours {
+  line-height: 1.5rem;
+}
+
+.sunday_holidays {
+  margin-top: 1.5rem;
+}
+
+.sunday {
+  margin-top: 1.5rem;
+}
+
+.holidays {
+  margin-top: 1.5rem;
+}
+
+.saturday {
+  margin-top: 1.5rem;
 }

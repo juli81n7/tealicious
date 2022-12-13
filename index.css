@@ -372,3 +372,42 @@ height: 102%;
     transform: translateY(0);
     opacity: 1;
   }
+
+
+
+
+  .bubbles_container{
+    position: absolute;
+    top: 64px;
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  .bubble{
+    position:relative;
+    scale: 0.04;
+    transform: translateX(-1300%);
+    transform: translateY(-800%);
+    transition: 10s;
+
+
+  }
+
+.pos1{
+    transform: translateX(-1300%);
+    transform: translateY(0%);
+}
+.pos2{
+    top:200px
+}
+.pos3{
+    top:400px
+}
+
+
+.bubbles_animation{
+    transform: translateX(1300%);  
+
+}

@@ -1,5 +1,14 @@
 const hamburger = document.querySelector(".hamburger")
 const navMenu = document.querySelector(".nav-menu")
+const bubbles = document.querySelector(".bubble")
+
+
+window.addEventListener("load", (event) => {
+  console.log("page is fully loaded");
+  bubbles.classList.add("bubbles_animation")
+
+});
+
 
 
 hamburger.addEventListener("click", () =>{
@@ -14,6 +23,11 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
   hamburger.classList.remove("active")
   navMenu.classList.remove("active")
 }))
+
+
+
+
+
 
 
 

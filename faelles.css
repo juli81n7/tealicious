@@ -21,7 +21,20 @@ header{
 
 
 }
-
+.instagram_logo{
+  width: 25px;
+  height: 25px;
+  }
+  
+  
+  
+  .instagram_logo  path{
+      fill: #055946;
+  
+  transform-origin: center;
+  
+  
+  }
 li{
   list-style: none;
           font-family: bely, serif;
@@ -78,24 +91,11 @@ cursor: url(img/custom_cursor_green_hover.svg), auto;
   cursor: url(img/custom_cursor_green_hover.svg), auto;
 }
 
-.bar{
-  display:block;
-  width: 25px;
-  height: 3px;
-margin: 5px auto;
--webkit-transition: all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;
-background-color: var(--primary);
-}
-
 @media(max-width:800px){
   .hamburger{
     display: block;
   }
 
-.harmburger .active .bar:nth-child(2){
-  opacity: 0;
-}
 
 
 li{
@@ -109,11 +109,43 @@ li{
 }
 
 
-.harmburger.active .bar:nth-child(1){
+.bar1{
+  display:block;
+  width: 25px;
+  height: 3px;
+margin: 5px auto;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+background-color: var(--primary);
+}
+.bar2{
+  display:block;
+  width: 25px;
+  height: 3px;
+margin: 5px auto;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+background-color: var(--primary);
+}
+.bar3{
+  display:block;
+  width: 25px;
+  height: 3px;
+margin: 5px auto;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+background-color: var(--primary);
+}
+
+.bar2.active{
+  opacity: 0;
+}
+
+.bar1.active{
   transform: translateY(8px) rotate(45deg);
 }
 
-.harmburger.active .bar:nth-child(3){
+.bar3.active{
   transform: translateY(-8px) rotate(-45deg);
 }
 

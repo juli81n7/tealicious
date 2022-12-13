@@ -3,6 +3,7 @@
  padding: 0;
   margin: 0;
   box-sizing: border-box;
+  cursor: url(img/custom_cursor_green.svg), auto;
 }
 
 html{
@@ -36,6 +37,7 @@ li{
 a{
   color: var(--primary);
 text-decoration: none;
+cursor: url(img/custom_cursor_green_hover.svg), auto;
 
 }
 
@@ -73,7 +75,7 @@ text-decoration: none;
 
 .hamburger{
   display: none;
-  cursor: pointer;
+  cursor: url(img/custom_cursor_green_hover.svg), auto;
 }
 
 .bar{
@@ -191,7 +193,7 @@ z-index: 999;
 
 
 footer{
-  height: 300px;
+  height: 200px;
   background-color: #F4BECD;
   width: 100%;
 margin-top: 10px;
@@ -200,4 +202,5 @@ justify-content: center;
 justify-items: center;
 flex-direction: column;
 text-align: center;
+
 }

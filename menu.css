@@ -12,7 +12,7 @@ main {
 }
 
 .menu {
-  margin: 0 1rem;
+  margin: 0 1rem 4rem;
 }
 .alignleft {
   text-align: left;
@@ -27,14 +27,26 @@ h1 {
   color: var(--secondary);
   font-size: 4rem;
 }
-h3,
-li {
+h3 {
   font-size: 1.2rem;
   font-family: bely, sans-serif;
   padding-top: 14px;
 }
+li {
+  font-size: 1rem;
+  font-family: muli, sans-serif;
+  padding-top: 14px;
+  font-weight: 400;
+}
 h2 {
   padding-top: 18px;
+  font-family: bely, sans-serif;
+  font-weight: 600;
+}
+span {
+  font-family: muli, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 img {
   width: 100%;
@@ -48,7 +60,6 @@ img {
   margin-top: 20px;
 }
 .secondarybg {
-  border-color: var(--secondary);
   border-color: var(--primary);
   border-style: solid;
   border-radius: 15px;
@@ -90,7 +101,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #055946;
+  background-color: var(--primary);
+}
+
+.diykits {
+  max-width: 900px;
+  margin: auto;
 }
 
 /*** grids ***/

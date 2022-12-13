@@ -67,7 +67,15 @@ img{
         padding-top: 30px;
         align-items: center;
       }
-      
+
+      .menu_section2{
+        align-items: center;
+        height: 700px;
+        overflow: hidden;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    margin-top: 2rem;
+    }
 }
 
 .tekst {
@@ -97,5 +105,14 @@ video {
     padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 20px;
+    width: 100%;
+    
+}
+
+@media (min-width: 800px){  
+    .SoMe_video {
+        width: 30%;
+    }
+
 
 }

@@ -104,6 +104,11 @@ img {
   background-color: var(--primary);
 }
 
+.diykits {
+  max-width: 900px;
+  margin: auto;
+}
+
 /*** grids ***/
 .grid_2col_1-1_mobil {
   display: grid;

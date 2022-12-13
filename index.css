@@ -228,7 +228,7 @@ height: 300px;
 
 
 
-}
+
 
 
 
@@ -360,3 +360,15 @@ height: 102%;
 
 
 
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+.active{
+    transform: translateY(0);
+    opacity: 1;
+  }

@@ -127,21 +127,21 @@ margin-top: 20px;
 
 
 .instagram_logo{
-margin-bottom: -7rem;
-margin-top: -7rem;
-margin-left: -7rem;
-margin-right: -7rem;
+width: 25px;
+height: 25px;
+}
+.instagram_logo:hover{
+width: 28px;
+height: 28px;
 }
 
 
 .instagram_logo  path{
     fill: #055946;
-    background-color: #efeee9;
-    scale: 0.08;
+
 transform-origin: center;
-}
-.instagram_logo svg path{
-    scale: 0.10;
+
+
 }
 
 
@@ -319,7 +319,7 @@ border-radius: 50px;
         .events{
             margin-top: 2rem;
             align-items: center;
-            height: 800px;
+    margin-bottom: 3rem;
             text-align: center;
 display: flex;
 flex-direction: column;
@@ -386,28 +386,17 @@ height: 102%;
   }
 
   .bubble{
-    position:relative;
-    scale: 0.04;
-    transform: translateX(-1300%);
-    transform: translateY(-800%);
-    transition: 10s;
-
-
+    position:absolute;
+    scale:150;
+top: 50%;
+left: 50%;
+    transition: 1.5s;
+    z-index: 99999;
   }
 
-.pos1{
-    transform: translateX(-1300%);
-    transform: translateY(0%);
-}
-.pos2{
-    top:200px
-}
-.pos3{
-    top:400px
-}
 
 
 .bubbles_animation{
-    transform: translateX(1300%);  
+    scale:0;
 
 }

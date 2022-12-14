@@ -234,5 +234,7 @@ justify-content: center;
 justify-items: center;
 flex-direction: column;
 text-align: center;
+position: relative;
+    z-index: 99999;
 
 }

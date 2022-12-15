@@ -59,6 +59,11 @@ img {
   border-radius: 15px;
   margin-top: 20px;
 }
+
+.menu img {
+  max-width: 340px;
+  margin: auto;
+}
 .secondarybg {
   border-color: var(--primary);
   border-style: solid;
@@ -86,10 +91,10 @@ img {
 }
 
 .diylist {
-  list-style: disc;
   text-align: left;
   max-width: 260px;
   margin: auto;
+  padding: 10px;
 }
 
 .diyul {
@@ -109,24 +114,28 @@ img {
   margin: auto;
 }
 
+.marbot {
+  margin-bottom: 30px;
+}
+
 /*** grids ***/
 .grid_2col_1-1_mobil {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 15px;
 }
 
 @media (min-width: 600px) {
   .grid_2col_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 15px;
   }
 
   .grid_2col_1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 15px;
     max-width: 900px;
     margin: auto;
   }
